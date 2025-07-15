@@ -1,0 +1,354 @@
+﻿@page "/portfolio"
+
+<!-- Hero Section -->
+<section class="hero text-center text-white bg-dark py-5 position-relative">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+
+                <!-- Profile Image -->
+                <img src=""
+                     alt="Profile"
+                     class="profile-img rounded-circle mb-4 shadow-lg animate__animated animate__fadeIn"
+                     style="width: 150px; height: 150px; object-fit: cover;" />
+
+                <!-- Name & Title -->
+                <h1 class="display-5 fw-bold animate__animated animate__fadeInDown">
+                    Udayakumar Murugesan
+                </h1>
+                <p class="lead animate__animated animate__fadeInUp">
+                    Senior Digital Marketing Specialist
+                </p>
+
+                <!-- Contact Buttons -->
+                <div class="d-flex justify-content-center flex-wrap gap-3 mt-4 mb-3">
+                    <a href="mailto:udayakumarmurugesan0@gmail.com"
+                       class="btn btn-light btn-sm rounded-pill px-4 shadow">
+                        <i class="bi bi-envelope me-2"></i>Email Me
+                    </a>
+                    <a href="https://wa.me/919003656216"
+                       class="btn btn-outline-light btn-sm rounded-pill px-4 shadow">
+                        <i class="bi bi-whatsapp me-2"></i>WhatsApp
+                    </a>
+                </div>
+
+                <!-- Location -->
+                <p class="mb-2 mt-3 text-white-50">
+                    <i class="bi bi-geo-alt-fill me-2"></i>Coimbatore, Tamil Nadu, India
+                </p>
+
+                <!-- Social Icons -->
+                <div class="social-icons mt-3 d-flex justify-content-center gap-3">
+                    <a href="https://www.linkedin.com/in/udaya-kumar-ab637b175/" target="_blank" class="text-white fs-5 social-hover">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="#" class="text-white fs-5 social-hover">
+                        <i class="bi bi-twitter-x"></i>
+                    </a>
+                    <a href="#" class="text-white fs-5 social-hover">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="#" class="text-white fs-5 social-hover">
+                        <i class="bi bi-github"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Main Content -->
+<div class="container py-5">
+    <!-- About Section -->
+    <section id="about" class="mb-5">
+        <h2 class="section-title">About Me</h2>
+        <div class="row">
+            <div class="col-lg-10">
+                <p class="lead">
+                    Dynamic and performance-driven Digital Marketing Professional with 8+ years of experience in SEO, paid media,
+                    funnel optimization, and B2B/B2C growth. Proven ability to scale campaigns through data-driven strategies.
+                </p>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="bg-primary bg-opacity-10 p-2 rounded me-3">
+                                <i class="bi bi-bar-chart-fill text-primary fs-4"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-0">Data-Driven</h5>
+                                <p class="mb-0 text-muted">Metrics-focused approach</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="bg-primary bg-opacity-10 p-2 rounded me-3">
+                                <i class="bi bi-lightbulb-fill text-primary fs-4"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-0">Strategic</h5>
+                                <p class="mb-0 text-muted">Holistic marketing solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="mb-5">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <ExperienceItem 
+                    Title="Senior Digital Marketing Specialist" 
+                    Company="SBNA Software Solutions" 
+                    Period="Jul 2022 – Present" 
+                    Points="3.5× increase in B2B leads;₹150k ad budget;Automated CRM workflows;300% social engagement"
+                    Icon="bi bi-briefcase-fill" />
+            </div>
+            <div class="col-md-6">
+                <ExperienceItem Title="Senior Digital Marketing Executive" 
+                    Company="Vserve Ebusiness" 
+                    Period="2019 – 2022" 
+                    Points="200% eCommerce traffic;40% CPL reduction;Content calendar strategy"
+                    Icon="bi bi-shop-window" />
+            </div>
+            <div class="col-md-6">
+                <ExperienceItem Title="Digital Marketing Executive" 
+                    Company="Webseowire" 
+                    Period="2018 – 2019" 
+                    Points="50+ SEO/PPC campaigns;2.5× leads growth"
+                    Icon="bi bi-search" />
+            </div>
+            <div class="col-md-6">
+                <ExperienceItem Title="Marketing Associate" 
+                    Company="Personiv" 
+                    Period="2017 – 2018" 
+                    Points="Content, email campaigns, internal branding"
+                    Icon="bi bi-envelope-fill" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="mb-5">
+        <h2 class="section-title">Skills & Achievements</h2>
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="h5 mb-4"><i class="bi bi-star-fill text-warning me-2"></i>Core Strengths</h3>
+                        <div class="d-flex flex-wrap">
+                            <span class="skill-badge"><i class="bi bi-graph-up me-2"></i>Growth Marketing</span>
+                            <span class="skill-badge"><i class="bi bi-search me-2"></i>SEO/SEM</span>
+                            <span class="skill-badge"><i class="bi bi-meta me-2"></i>Meta & Google Ads</span>
+                            <span class="skill-badge"><i class="bi bi-robot me-2"></i>Marketing Automation</span>
+                            <span class="skill-badge"><i class="bi bi-envelope me-2"></i>Email/WhatsApp</span>
+                            <span class="skill-badge"><i class="bi bi-clipboard-data me-2"></i>A/B Testing</span>
+                            <span class="skill-badge"><i class="bi bi-file-earmark-text me-2"></i>Content Strategy</span>
+                            <span class="skill-badge"><i class="bi bi-people-fill me-2"></i>Influencer Outreach</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="h5 mb-4"><i class="bi bi-trophy-fill text-warning me-2"></i>Achievements</h3>
+                        <div class="achievement-list">
+                            <div class="d-flex mb-3">
+                                <div class="bg-primary bg-opacity-10 text-primary p-2 rounded me-3 flex-shrink-0">
+                                    <i class="bi bi-graph-up-arrow fs-4"></i>
+                                </div>
+                                <div>
+                                    <h5 class="h6 mb-1">180% organic growth</h5>
+                                    <p class="small text-muted mb-0">For SaaS brand within 6 months</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mb-3">
+                                <div class="bg-primary bg-opacity-10 text-primary p-2 rounded me-3 flex-shrink-0">
+                                    <i class="bi bi-cash-coin fs-4"></i>
+                                </div>
+                                <div>
+                                    <h5 class="h6 mb-1">35% CAC reduction</h5>
+                                    <p class="small text-muted mb-0">Through optimized ad targeting</p>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="bg-primary bg-opacity-10 text-primary p-2 rounded me-3 flex-shrink-0">
+                                    <i class="bi bi-people-fill fs-4"></i>
+                                </div>
+                                <div>
+                                    <h5 class="h6 mb-1">25k Instagram followers</h5>
+                                    <p class="small text-muted mb-0">Built in 1 year through strategic content</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <h3 class="h5 mb-3"><i class="bi bi-tools me-2"></i>Tools & Platforms</h3>
+        <div class="row g-3">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body text-center">
+                        <div class="bg-primary bg-opacity-10 p-3 rounded-circle d-inline-block mb-3">
+                            <i class="bi bi-google text-primary fs-3"></i>
+                        </div>
+                        <h5 class="h6 mb-0">Google Ads/Analytics</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body text-center">
+                        <div class="bg-primary bg-opacity-10 p-3 rounded-circle d-inline-block mb-3">
+                            <i class="bi bi-facebook text-primary fs-3"></i>
+                        </div>
+                        <h5 class="h6 mb-0">Meta Business Suite</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body text-center">
+                        <div class="bg-primary bg-opacity-10 p-3 rounded-circle d-inline-block mb-3">
+                            <i class="bi bi-search text-primary fs-3"></i>
+                        </div>
+                        <h5 class="h6 mb-0">Ahrefs/SEMrush</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body text-center">
+                        <div class="bg-primary bg-opacity-10 p-3 rounded-circle d-inline-block mb-3">
+                            <i class="bi bi-hdd-stack text-primary fs-3"></i>
+                        </div>
+                        <h5 class="h6 mb-0">HubSpot/Zoho</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="mb-5">
+        <h2 class="section-title">Education & Certifications</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <div class="bg-primary bg-opacity-10 text-primary p-3 rounded me-4 flex-shrink-0">
+                                <i class="bi bi-mortarboard-fill fs-1"></i>
+                            </div>
+                            <div>
+                                <h3 class="h5">B.E. in Electronics & Communication</h3>
+                                <p class="mb-1">SNS College of Technology, Coimbatore</p>
+                                <small class="text-muted">2014–2017</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <h3 class="h5 mb-4"><i class="bi bi-award-fill text-warning me-2"></i>Certifications</h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                    <span>HubSpot Inbound Marketing Certification</span>
+                                </div>
+                            </li>
+                            <li class="mb-2">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                    <span>LinkedIn Marketing Strategy Certificate</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                    <span>Social Media Marketing Certification</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="mb-5">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body">
+                        <p class="lead">
+                            I'm currently open to new opportunities in digital marketing.
+                            Reach out via email or LinkedIn to collaborate.
+                        </p>
+                        <div class="row mt-4">
+                            <div class="col-md-6 mb-3">
+                                <div class="card border-0 bg-light h-100">
+                                    <div class="card-body text-center">
+                                        <i class="bi bi-envelope-fill fs-1 text-primary mb-3"></i>
+                                        <h5 class="h6">Email Me</h5>
+                                        <a href="mailto:udayakumarmurugesan0@gmail.com" class="text-decoration-none">udayakumarmurugesan0@gmail.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="card border-0 bg-light h-100">
+                                    <div class="card-body text-center">
+                                        <i class="bi bi-linkedin fs-1 text-primary mb-3"></i>
+                                        <h5 class="h6">Connect on LinkedIn</h5>
+                                        <a href="https://www.linkedin.com/in/udaya-kumar-ab637b175/" target="_blank" class="text-decoration-none">linkedin.com/in/udaya-kumar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- Back to Top Button -->
+<a href="#" class="floating-btn animate__animated animate__fadeInUp">
+    <i class="bi bi-arrow-up"></i>
+</a>
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-4">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="mb-0">&copy; 2025 Udayakumar Murugesan. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <div class="social-icons">
+                    <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JS Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

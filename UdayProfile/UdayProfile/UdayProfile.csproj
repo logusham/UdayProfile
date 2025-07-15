@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\UdayProfile.Client\Pages\ExperienceCard.razor" Link="ExperienceCard.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UdayProfile.Client\UdayProfile.Client.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.0.6" />
+  </ItemGroup>
+
+</Project>
